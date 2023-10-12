@@ -9,29 +9,25 @@
 }
 
 body {
-	display: grid;
-	place-items: center;
-	min-height: 100vh;
+	/* /* display: grid; */
+	place-items: center; */
+	/* min-height: 100vh; */
 	font-family:  "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
-	background: hsl(0 0% 0%);
+	/* background: hsl(0 0% 0%); */
 	overflow: hidden;
 }
 
 ul {
 	width: fit-content;
 	display: flex;
-	padding: 0;
-	margin: 0;
+	/* padding: 0; */
+	/* margin: 0; */
 	list-style-type: none;
 	gap: 0.875rem;
 }
 
 li {
 	scroll-snap-align: center;
-}
-
-figure {
-	margin: 0;
 }
 
 img {
@@ -62,12 +58,15 @@ li {
 }
 
 figcaption {
-	color: hsl(0 0% 98%);
-	width: var(--image-size);
+	color: black;
+	width: 100%;
 	text-align: center;
-	padding: 1rem;
+	/* padding: 1rem; */
 	font-size: 1.25rem;
+  /* padding-top:1000px; */
+  line-height: 1.5;
 }
+
 
 figcaption span:last-of-type {
 	color: hsl(0 0% 50%);
