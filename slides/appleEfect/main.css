@@ -9,11 +9,11 @@
 }
 
 body {
-	/* /* display: grid; */
-	place-items: center; */
-	/* min-height: 100vh; */
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
 	font-family:  "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
-	/* background: hsl(0 0% 0%); */
+	background: hsl(0 0% 0%);
 	overflow: hidden;
 }
 
