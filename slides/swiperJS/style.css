@@ -1,15 +1,13 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* font-family: ; */
-}
 
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.example{
+  height: 100vh;
 }
 
 .mySwiper{
@@ -51,7 +49,7 @@ font-weight: 600;
 letter-spacing: 1px;
 }
 
-.swiper-pagination{
+.swiper-pagination-bullet{
   background-color: white;
   width: 9px;
   height: 9px;
