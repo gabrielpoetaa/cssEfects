@@ -4,19 +4,23 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-}
+  font-family: 'Poppins', sans-serif;
 
-.example{
-  height: 100vh;
 }
 
 .mySwiper{
   max-width: 1200px;
   width: 100%;
   padding: 40px 0;
+  /* margin:0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .container{
+  padding-top: 20px;
   margin: 0 40px;
   overflow: hidden;
 }
@@ -39,18 +43,32 @@ body{
   object-fit: cover;
 }
 
+.box p {
+  position: absolute;
+  left: 48px;
+  bottom: 65px;
+  font-size: 2.5rem;
+  color: white;
+  /* background-color: hsl(69deg 46% 92%); */
+  text-align:end;
+  font-weight: 600;
+  }
+
 .box span{
+/* background-color: black; */
 position: absolute;
-bottom: 10px;
-left: 15px;
+bottom: 20px;
+left:50px;
 color: white;
-font-size: 26px;
-font-weight: 600;
+font-size: 1rem;
 letter-spacing: 1px;
+/* text-align: center; */
 }
 
-.swiper-pagination-bullet{
+
+
+.swiper-pagination{
   background-color: white;
-  width: 9px;
+  width: 30px;
   height: 9px;
 }
