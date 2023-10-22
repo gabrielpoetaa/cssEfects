@@ -4,7 +4,7 @@ body{
 
 
 .content-wrapper{
-  margin:50px;
+  margin:80px;
   display: flex;
   justify-content: space-around;
   height: 50%;
@@ -42,7 +42,10 @@ body{
 }
 
 .skew-text-left{
-margin-top:5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+/* margin-top:5%; */
 margin-right: 20%
 ;}
 
