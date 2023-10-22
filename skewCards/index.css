@@ -1,0 +1,49 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.content-wrapper{
+  margin:50px;
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+
+}
+
+.content-image img{
+  position:relative;
+  /* border:2px solid black; */
+  height: 400px;
+  width: 300px;
+  transform: skew(-20deg);
+  z-index: 1;
+  /* background-image: url("https://picsum.photos/2500/1960?random=12");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-blend-mode: multiply;
+  top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px; */
+}
+
+.image1 img{
+  transform: skew(-5deg);
+  object-fit: cover;
+}
+
+.skew-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.skew-text-left{
+margin-top:5%;
+margin-right: 20%
+;}
+
+
