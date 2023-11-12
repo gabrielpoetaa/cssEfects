@@ -14,19 +14,4 @@ const observer = new IntersectionObserver((entries) => {
 
 cards.forEach(card =>{
   observer.observe(card)
-
-})
-
-
-
-
-// let cardsKey = Object.entries(cards)
-
-// console.log(cards)
-
-
-// let newCards = cardsKey.map((card) => {
-//   return card
-// })
-
-// console.log(newCards)
+});
